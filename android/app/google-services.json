@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075874607146",
+    "project_id": "notes-management-app-moumi-005",
+    "storage_bucket": "notes-management-app-moumi-005.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075874607146:android:7db49032618d6ca1fe5353",
+        "android_client_info": {
+          "package_name": "com.example.notes_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVSRTp8w9Dkvcc2AuHcl7U-SgZ6bva1TY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
