@@ -25,8 +25,9 @@ Clone the repository
 ```bash
 git clone https://github.com/moumizaman/notes-management-app.git
 
-## Project Structure
 
+
+## Project Structure
 ```
 lib/
  ├── models/
@@ -46,8 +47,8 @@ lib/
  └── main.dart
 ```
 
-## Firebase Firestore Structure
 
+## Firebase Firestore Structure 
 ```
 notes
  |
