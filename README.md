@@ -94,4 +94,4 @@ This project was developed as part of a Flutter coursework assignment.
 
 ## Author
 
-Moumi Zaman
+Maknun Zaman Moumita
