@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../services/appspro_service.dart';
-import 'home_screen.dart';
+import 'notes_screen.dart';
 
 class OtpScreen extends StatefulWidget {
   final String phone;
@@ -45,7 +45,7 @@ class _OtpScreenState extends State<OtpScreen> {
 
     if (ok) {
       Navigator.of(context).pushAndRemoveUntil(
-        MaterialPageRoute(builder: (_) => const HomeScreen()),
+        MaterialPageRoute(builder: (_) => const NotesScreen()),
         (route) => false,
       );
     } else {

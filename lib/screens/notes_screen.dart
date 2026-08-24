@@ -3,6 +3,7 @@ import '../models/note_model.dart';
 import '../services/firestore_service.dart';
 import '../widgets/note_tile.dart';
 import 'add_edit_note_screen.dart';
+import 'settings_screen.dart';
 
 class NotesScreen extends StatefulWidget {
   const NotesScreen({super.key});
@@ -20,6 +21,16 @@ class _NotesScreenState extends State<NotesScreen> {
       appBar: AppBar(
         title: const Text("Notes"),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const SettingsScreen()),
+              );
+            },
+          ),
+        ],
       ),
       body: StreamBuilder<List<Note>>(
         stream: firestoreService.getNotes(),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/appspro_service.dart';
 import 'otp_screen.dart';
-import 'home_screen.dart';
+import 'notes_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
     if (loggedInLocally) {
       if (!mounted) return;
       Navigator.of(context).pushAndRemoveUntil(
-        MaterialPageRoute(builder: (_) => const HomeScreen()),
+        MaterialPageRoute(builder: (_) => const NotesScreen()),
         (route) => false,
       );
       return;

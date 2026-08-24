@@ -26,7 +26,7 @@ class AppsProService {
   // TODO: paste your url_slug here (AppsPro dashboard -> your app -> Checkout URL,
   // it's the 10-character code after appspro.dev/s/). This is required for
   // /s/{url_slug}/otp/request and /otp/verify.
-  static const String urlSlug = 'PASTE_YOUR_URL_SLUG_HERE';
+  static const String urlSlug = 'EzXm3pXEV9';
 
   // ---- local session keys ----
   static const _kSubscribed = 'is_subscribed';

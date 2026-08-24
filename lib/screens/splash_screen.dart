@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/appspro_service.dart';
 import 'subscribe_screen.dart';
 import 'login_screen.dart';
-import 'home_screen.dart';
+import 'notes_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
     } else if (!loggedIn) {
       next = const LoginScreen();
     } else {
-      next = const HomeScreen();
+      next = const NotesScreen();
     }
 
     Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => next));
